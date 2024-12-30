@@ -21,4 +21,5 @@ export const Cursor:FC<CursorProps>=()=>{
   /> 
   //Creating the effect
   //
+  //
 }
