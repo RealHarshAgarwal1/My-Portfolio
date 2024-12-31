@@ -19,7 +19,7 @@ export const Cursor:FC<CursorProps>=()=>{
       border: '3px solid var(--cursor-color)'
     }}
   /> 
-  //Creating the effect
+  //Creating the effect.....
   //
   //
 }
