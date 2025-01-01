@@ -1,11 +1,12 @@
+
 import {cn} from "@/lib/utils";
+import { clsx} from 'clsx';
 
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-pixel">Harsh Agarwal</h1>
-      <h1 className="text-3xl font-oswald">Hello my friends</h1>
+    <div className="p-10">
+      <a href="#" className="bg-red-950">he</a>
     </div>
   );
 }

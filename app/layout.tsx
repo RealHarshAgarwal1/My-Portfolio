@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Cursor } from "@/components/cursor/cursor";
 import { cn } from "@/lib/utils";
 import { Bricolage_Grotesque,Oswald,Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
@@ -6,7 +7,7 @@ import "./globals.css";
 import GrainEffect from "@/components/visualEffects/grain-effects";
 
 
-
+//Fonts
 const PixelFont = localFont({
   src:"../public/assets/fonts/PixelFont.ttf",
   variable: "--font-pixel",
@@ -25,6 +26,8 @@ const OswaldFont = Oswald({
   subsets: ["latin"],
 });
 
+//MetaData
+
 export const metadata: Metadata = {
   title: "Harsh Agarwal",
   description: "Portfolio of Harsh Agarwal NextJWeb Developer",
@@ -41,6 +44,7 @@ export default function RootLayout({
         className={cn(MainFont.className,PixelFont.variable,OswaldFont.variable,GeistMonoFont.className)}
       >
         <GrainEffect />
+        <Cursor color="#fff"/>
         {children}
       </body>
     </html>
