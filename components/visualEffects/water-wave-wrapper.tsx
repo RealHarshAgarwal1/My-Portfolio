@@ -18,5 +18,5 @@ const WaterWaveWrapper:FC<WaterWaveWrapperProps>=({children})=>{
     </WaterWaveimageUrl>
     // Making now a code
     //Still working on the animation.
-    //facing a bug
+    //facing a bug.........
 }
